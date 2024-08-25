@@ -48,7 +48,7 @@ function App() {
       <div className="img-logo">
         <img height="50px" src="/devad-logo.png" alt="dev-ad-logo" />
       </div>
-      <h3 className="dev-ad-text">Dev@d Gemini GPI</h3>
+      <h3 className="dev-ad-text">Dev@d Gemini GPT</h3>
       <form onSubmit={getResponseForGivenPrompt}>
         <label htmlFor="query">Enter your query:</label>
         <textarea
