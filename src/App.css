@@ -1,38 +1,123 @@
-.App {
+body {
+  background-image: url(https://shinecollective.co.nz/wp-content/uploads/2023/09/a-sneak-peek-into-2030-with-generative-ai-2200x1500-1.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  object-fit: cover;
+  opacity: 0.5;
+  color: white;
+}
+.gpi-container {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.gpi-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gpi-container form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.gpi-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.gpi-container button {
+  padding: 10px 50px;
+  background-color: #00ffe6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  box-shadow: 0 0 50px;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 16% 100%);
+}
+
+.gpi-container button:hover {
+  padding: 10px 50px;
+  background-color: #0062ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 0 50px;
+}
+
+.gpi-container .response {
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.chat-bot-textarea {
+  width: 100%;
+  height: 139px;
+  border-radius: 8px;
+  background: #333;
+  margin: 10px;
+  color: white;
+  mix-blend-mode: screen;
+}
+
+.response-text {
+  margin: 0;
+}
+
+.gpt-liststyle {
+  list-style: none;
+}
+
+.language-container {
+  margin: 20px 0;
+  color: #00ffe6 !important;
+}
+
+.language-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.language-feature h4 {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.language-feature p {
+  margin-left: 20px;
+  color: #666;
+  font-size: 1em;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.dev-ad-text {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.code-block {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  color: #00ffe6 !important;
+  text-align: left;
+  mix-blend-mode: screen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-logo {
+  mix-blend-mode: lighten;
 }
